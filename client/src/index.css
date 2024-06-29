@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f0f0f;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100lvh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.todo {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
